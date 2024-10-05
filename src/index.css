@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #3b3b3b;
+}
+
+.wallet-balance,
+.expenses-balance {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.expense-summary {
+  flex: 2;
+}
+
+.recent-transactions,
+.top-expenses {
+  flex: 1;
+}
+
+.recent-transactions ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.recent-transactions li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #4d4d4d;
+  border-radius: 5px;
+}
+
+.transaction-icon {
+  margin-right: 10px;
+  font-size: 24px;
+}
+
+.transaction-details {
+  flex: 1;
+}
+
+.transaction-details h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.transaction-details p {
+  margin: 0;
+  font-size: 12px;
+  color: #aaa;
+}
+
+.transaction-amount {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.transaction-actions button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #efefefd9;
+  padding: 20px;
+  border-radius: 10px;
+  outline: none;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ffffffc4;
+}
+
+.modal h2 {
+  margin-top: 0;
+}
+
+.modal form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 538px;
+  height: 335px;
+}
+
+.modal input,
+.modal select {
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.modal button {
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .wallet-balance,
+  .expenses-balance,
+  .expense-summary,
+  .recent-transactions,
+  .top-expenses {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
+.top-expenses {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  color: #000000;
+}
+
+.top-expenses h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.top-expenses .recharts-cartesian-axis-tick-value {
+  fill: #000000;
+  font-size: 14px;
+}
+
+.top-expenses .recharts-bar-rectangle {
+  rx: 5;
+  ry: 5;
+}
+.expense-summary {
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.legend {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.color-box {
+  width: 26px;
+  height: 8px;
+  margin-right: 5px;
+}
+
+.legend-item span {
+  color: white;
+  font-size: 14px;
+}

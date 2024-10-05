@@ -1,0 +1,93 @@
+.recentTransactionsWrapper {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  margin-bottom: 10px;
+}
+
+.recentTransactions {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.transactionList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.transactionItem {
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.iconContainer {
+  background-color: #f0f0f0;
+  border-radius: 50%;
+  padding: 10px;
+  margin-right: 15px;
+}
+
+.transactionDetails {
+  flex: 1;
+}
+
+.transactionDetails h3 {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.transactionDetails p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #888;
+}
+
+.amount {
+  font-weight: bold;
+  color: #ff7043;
+  margin-right: 15px;
+}
+
+.actionButton {
+  background: none;
+  border: none;
+  color: #888;
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+}
+
+.pageNumber {
+  background-color: #4caf50;
+  color: white;
+  border-radius: 50%;
+  padding: 5px 10px;
+  margin: 0 10px;
+}
+
+@media (max-width: 768px) {
+  .recentTransactionsWrapper {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
