@@ -35,56 +35,53 @@ Expense Tracker is a web application built with React that helps users manage th
 ### Installation
 
 1. Clone the repository:
-   ```
-   git clone https://github.com/yourusername/expense-tracker.git
-   ```
 
+   ```
+   git clone https://github.com/milindkusahu/Expense-Tracker.git
+   ```
 2. Navigate to the project directory:
+
    ```
    cd expense-tracker
    ```
-
 3. Install the dependencies:
+
    ```
    npm install
    ```
-
 4. Start the development server:
+
    ```
    npm run dev
    ```
-
 5. Open your browser and visit `http://localhost:5173` to view the application.
 
 ## Usage
 
-1. **Adding Income**: 
+1. **Adding Income**:
+
    - Click on the "Add Income" button in the Wallet Balance section.
    - Enter the amount in the modal and click "Add Balance".
-
 2. **Adding an Expense**:
+
    - Click on the "Add Expense" button in the Expenses section.
    - Fill in the expense details (title, amount, category, date) in the modal.
    - Click "Add Expense" to save.
-
 3. **Editing an Expense**:
+
    - In the Recent Transactions section, click the edit icon next to an expense.
    - Modify the details in the modal and click "Update Expense".
-
 4. **Deleting an Expense**:
-   - In the Recent Transactions section, click the delete icon next to an expense.
 
+   - In the Recent Transactions section, click the delete icon next to an expense.
 5. **Viewing Summaries**:
+
    - The pie chart shows the distribution of expenses by category.
    - The bar chart in the Top Expenses section displays your highest spending categories.
 
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ## Acknowledgments
 
@@ -93,7 +90,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Contact
 
-If you have any questions, feel free to reach out to [Your Name] at [your.email@example.com].
+If you have any questions, feel free to reach out to Milind Kumar Sahu at milindsahu2000@gmail.com.
 
 ---
 
