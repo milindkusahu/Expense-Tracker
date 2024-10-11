@@ -4,7 +4,7 @@
 
 Expense Tracker is a web application built with React that helps users manage their personal finances by tracking income and expenses. It provides a user-friendly interface for adding, editing, and visualizing financial transactions.
 
-![Expense Tracker Screenshot](https://raw.githubusercontent.com/milindkusahu/Expense-Tracker/refs/heads/main/expensetracker.png)
+![Expense Tracker Screenshot](https://raw.githubusercontent.com/milindkusahu/Expense-Tracker/refs/heads/main/expense-tracker-app.png)
 
 ## Features
 
